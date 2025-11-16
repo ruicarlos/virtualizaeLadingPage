@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { ContactModal } from "./ContactModal";
 import logoImg from "@/assets/logo.png";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -44,7 +45,8 @@ const Header = () => {
               className="text-foreground/80 hover:text-foreground transition-colors"
             >
               Benefícios
-            </button>
+            </button>  
+                    
           </nav>
           <Button
             onClick={() => setIsModalOpen(true)}
