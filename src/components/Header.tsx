@@ -45,7 +45,13 @@ const Header = () => {
               className="text-foreground/80 hover:text-foreground transition-colors"
             >
               Benefícios
-            </button>  
+            </button>
+            <Link
+              to="politica-de-privacidade"
+              className="text-foreground/80 hover:text-foreground transition-colors"
+            >
+              Política de Privacidade
+            </Link>   
                     
           </nav>
           <Button
